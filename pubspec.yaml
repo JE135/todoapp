@@ -1,0 +1,21 @@
+name: apptodo
+description: "A simple Todo App using Flutter and Hive for state management."
+version: 1.0.0+1
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+  path_provider: ^2.0.3
+  flutter_bloc: ^8.1.5  # Optional for state management
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
